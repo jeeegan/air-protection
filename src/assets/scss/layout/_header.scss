@@ -36,9 +36,10 @@
 			line-height: inherit;
 			padding: 0 1.5em;
 			vertical-align: middle;
+			background-color: _palette(bg);
 
 			img {
-				height: 80%;
+				height: 70%;
 				vertical-align: middle;
 			}
 
@@ -74,6 +75,7 @@
 			@include vendor('flex-grow', '1');
 			height: inherit;
 			line-height: inherit;
+			background-color: _palette(bg);
 
 			a {
 				border: 0;

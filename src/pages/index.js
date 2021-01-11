@@ -8,8 +8,6 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,10 +15,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Air Protection | Homepage"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Air Protection eco-friendly cleaning products' },
+                        { name: 'keywords', content: 'hygiene, covid-19, coronavirus, ppe, cleaning, disinfectant' },
                     ]}
                 >
                 </Helmet>
@@ -65,7 +63,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
                             <ul className="actions">
-                                <li><Link to="/products" className="button next">Get Started</Link></li>
+                                <li><Link to="/products" className="button next">Our Products</Link></li>
                             </ul>
                         </div>
                     </section>
