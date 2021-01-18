@@ -7,7 +7,7 @@ const Banner = (props) => (
                 <h1>Protecting Your Workspace</h1>
             </header>
             <div className="content">
-                <p>We provide eco-friendly air, surface & hand sanitisers.<br /> Protect your workplace, your people and customers. <br />Keep your working environment healthy & safe without harmful chemicals.</p>
+                <p>We provide eco-friendly air, surface & hand sanitisers to protect your workplace, your people & customers. <br />Keep your working environment healthy & safe without harmful chemicals.</p>
                 <ul className="actions">
                     <li><a href="/products" className="button next scrolly">Find out more</a></li>
                 </ul>

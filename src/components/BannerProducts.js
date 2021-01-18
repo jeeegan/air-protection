@@ -4,7 +4,7 @@ const BannerLanding = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Coming soon</h1>
+                <h1>Our Products</h1>
             </header>
         </div>
     </section>

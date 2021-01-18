@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 
 import pic01 from '../assets/images/pic01.jpg'
@@ -44,7 +44,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Our Services</h3>
-                                <p>Fast-acting, skin-friendly hand sanitiser</p>
+                                <p>Fogging decontamination service, site safety assessment & installlation</p>
                             </header>
                             <Link to="/services" className="link primary"></Link>
                         </article>

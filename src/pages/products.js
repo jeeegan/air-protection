@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
+import Layout from '../components/Layout'
+import BannerProducts from '../components/BannerProducts'
 
 const Products = (props) => (
     <Layout>
@@ -10,7 +10,7 @@ const Products = (props) => (
             <meta name="description" content="Products Page" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerProducts />
 
         <div id="main">
             <section id="one">
