@@ -18,7 +18,16 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          '@static': path.resolve(__dirname, 'static/'),
+        },
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
+  
 }
