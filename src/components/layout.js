@@ -17,6 +17,7 @@ class Layout extends React.Component {
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
     }
 
+    
     componentDidMount () {
         this.timeoutId = setTimeout(() => {
             this.setState({loading: ''});
