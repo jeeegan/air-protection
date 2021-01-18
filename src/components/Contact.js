@@ -8,11 +8,19 @@ const Contact = props => (
         <input type="hidden" name="form-name" value="contact-form" />
           <div className="field half first">
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required/>
           </div>
           <div className="field half">
             <label htmlFor="email">Email</label>
-            <input type="text" name="email" id="email" />
+            <input type="text" name="email" id="email" required/>
+          </div>
+          <div className="field half first">
+            <label htmlFor="contact-number">Contact Number</label>
+            <input type="tel" name="contact-number" id="contact-number" required/>
+          </div>
+          <div className="field half">
+            <label htmlFor="company">Company</label>
+            <input type="text" name="company" id="company" />
           </div>
           <div className="field">
             <label htmlFor="message">Message</label>
@@ -33,8 +41,8 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-envelope"></span>
             <h3>Email</h3>
-            <a href="mailto:contact@airprotection.co.uk">
-              contact@airprotection.co.uk
+            <a href="mailto:mail@airprotection.co.uk">
+              mail@airprotection.co.uk
             </a>
           </div>
         </section>
@@ -42,7 +50,7 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-phone"></span>
             <h3>Phone</h3>
-            <span>0141 XXX XXXX</span>
+            <span>0141 237 3090</span>
           </div>
         </section>
         <section>
