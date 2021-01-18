@@ -6,6 +6,7 @@ const Footer = (props) => (
             <ul className="copyright">
                 <li>&copy; <a href="https://www.cwcameron.co.uk">C.W. Cameron Ltd T/A Air Protection</a></li>
                 <li>Company Registration Number SC612088</li>
+                <li>Vat Registration Number GB330024564</li>
             </ul>
         </div>
     </footer>
