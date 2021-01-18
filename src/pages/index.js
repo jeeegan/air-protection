@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
-import Banner from '../components/Banner'
+import HomepageBanner from '../components/HomepageBanner'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -23,7 +23,7 @@ class HomeIndex extends React.Component {
                 >
                 </Helmet>
 
-                <Banner />
+                <HomepageBanner />
 
                 <div id="main">
                     <section id="one" className="tiles">
@@ -55,11 +55,22 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/products" className="link primary"></Link>
                         </article>
-                    </section>
-                    <section id="two">
+                    </section>                    
+                    <section id="order" className="order">
                         <div className="inner">
                             <header className="major">
-                                <h2 id="about">About Us</h2>
+                                <h2>Order</h2>
+                            </header>
+                            <p>To place an order simply download our order form below and send it to us via our <a href="#contact">contact form</a>. Volume and contract pricing are available, please <a href="#contact">contact us</a> for a quote.</p>
+                            <ul className="actions">
+                                <li><a href={`airProtectionOrderForm.xlsx`} download className="button">Order Form Download</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="about">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>About Us</h2>
                             </header>
                             <p>Air Protection was founded to give peace of mind in challenging times. Our products help your company keep a clean and safe workplace. We pride ourselves on working with our customers as true partners to develop a bespoke solution for every space. Our management team has a long history in commercial property management and healthcare solutions, putting us in a unique position to help your business trade safely.<br />Air Protection is a trading name of C.W. Cameron Ltd - trusted in Scotland for over 70 years.</p>
                             <ul className="actions">
