@@ -61,7 +61,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2 id="about">About Us</h2>
                             </header>
-                            <p>Air Protection was founded to give peace of mind in challenging times. Our products help your company keep a clean & safe workplace. We pride ourselves on working with our customers as true partners to develop a bespoke solution for every space.<br />Air Protection is a trading name of C.W. Cameron Ltd - trusted in Scotland for over 70 years.</p>
+                            <p>Air Protection was founded to give peace of mind in challenging times. Our products help your company keep a clean and safe workplace. We pride ourselves on working with our customers as true partners to develop a bespoke solution for every space. Our management team has a long history in commercial property management and healthcare solutions, putting us in a unique position to help your business trade safely.<br />Air Protection is a trading name of C.W. Cameron Ltd - trusted in Scotland for over 70 years.</p>
                             <ul className="actions">
                                 <li><Link to="/products" className="button next">Our Products</Link></li>
                             </ul>
