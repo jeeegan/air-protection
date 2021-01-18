@@ -7,7 +7,7 @@ const Services = (props) => (
     <Layout>
         <Helmet>
             <title>Air Protection | Services Page</title>
-            <meta name="description" content="Products Page" />
+            <meta name="description" content="Services Page" />
         </Helmet>
 
         <BannerLanding />
