@@ -66,7 +66,7 @@ const Contact = props => (
               <br />
               Newton Mearns
               <br />
-              Scotland G77 5LL
+              Glasgow G77 5LL
             </span>
           </div>
         </section>

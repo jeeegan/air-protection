@@ -4,10 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HomepageBanner from '../components/HomepageBanner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import disinfectPack from '../assets/images/DisinfectPack2_1296x.png'
+import officeMister from '../assets/images/officeMister.jpg'
+import foggingMachine from '../assets/images/foggingMachine.jpg'
+import supercleanPack from '../assets/images/SupercleanPack2_1296x.png'
 
 class HomeIndex extends React.Component {
   render() {
@@ -32,21 +32,21 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${officeMister})` }}>
               <header className="major">
                 <h3>Air Protection</h3>
                 <p>Disinfecting dry-mister & fogging machines</p>
               </header>
               <Link to="/products" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic01})` }}>
+            <article style={{ backgroundImage: `url(${disinfectPack})` }}>
               <header className="major">
                 <h3>Disinfect</h3>
                 <p>Fast-acting surface, air & hand sanitiserss</p>
               </header>
               <Link to="/products" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${foggingMachine})` }}>
               <header className="major">
                 <h3>Our Services</h3>
                 <p>
@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/services" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic04})` }}>
+            <article style={{ backgroundImage: `url(${supercleanPack})` }}>
               <header className="major">
                 <h3>Superclean</h3>
                 <p>Eco-friendly multi-purpose cleaner</p>
@@ -102,7 +102,8 @@ class HomeIndex extends React.Component {
                 management and healthcare solutions, putting us in a unique
                 position to help your business trade safely.
                 <br />
-                Air Protection is a trading name of C.W. Cameron Ltd - trusted for over 70 years.
+                Air Protection is a trading name of C.W. Cameron Ltd - trusted
+                for over 70 years.
               </p>
               <ul className="actions">
                 <li>
