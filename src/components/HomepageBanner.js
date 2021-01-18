@@ -18,7 +18,7 @@ const HomepageBanner = props => (
         <ul className="actions">
           <li>
             <a href="/products" className="button next scrolly">
-              Find out more
+              View Products
             </a>
           </li>
         </ul>
