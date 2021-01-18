@@ -102,8 +102,7 @@ class HomeIndex extends React.Component {
                 management and healthcare solutions, putting us in a unique
                 position to help your business trade safely.
                 <br />
-                Air Protection is a trading name of C.W. Cameron Ltd - trusted
-                in Scotland for over 70 years.
+                Air Protection is a trading name of C.W. Cameron Ltd - trusted for over 70 years.
               </p>
               <ul className="actions">
                 <li>
