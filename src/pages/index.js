@@ -27,13 +27,6 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Disinfect</h3>
-                                <p>Fast-acting surface, air & hand sanitisers</p>
-                            </header>
-                            <Link to="/products" className="link primary"></Link>
-                        </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Air Protection</h3>
@@ -41,12 +34,19 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/products" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Dispenser</h3>
-                                <p>Fast-acting, skin-friendly hand sanitiser</p>
+                                <h3>Disinfect</h3>
+                                <p>Fast-acting surface, air & hand sanitiserss</p>
                             </header>
                             <Link to="/products" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${pic02})`}}>
+                            <header className="major">
+                                <h3>Our Services</h3>
+                                <p>Fast-acting, skin-friendly hand sanitiser</p>
+                            </header>
+                            <Link to="/services" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
