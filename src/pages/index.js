@@ -29,29 +29,29 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Air Atomisers</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Disinfect</h3>
+                                <p>Fast-acting surface, air & hand sanitisers</p>
                             </header>
                             <Link to="/products" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Fogging Machines</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Air Protection</h3>
+                                <p>Disinfecting dry-mister & fogging machines</p>
                             </header>
                             <Link to="/products" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Dispensers</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Dispenser</h3>
+                                <p>Fast-acting, skin-friendly hand sanitiser</p>
                             </header>
                             <Link to="/products" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Eco-Friendly Cleaners</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Superclean</h3>
+                                <p>Eco-friendly multi-purpose cleaner</p>
                             </header>
                             <Link to="/products" className="link primary"></Link>
                         </article>
@@ -61,7 +61,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2 id="about">About Us</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>Air Protection was founded to give peace of mind in challenging times. Our products help your company keep a clean & safe workplace. We pride ourselves on working with our customers as true partners to develop a bespoke solution for every space.<br />Air Protection is a trading name of C.W. Cameron Ltd - trusted in Scotland for over 70 years.</p>
                             <ul className="actions">
                                 <li><Link to="/products" className="button next">Our Products</Link></li>
                             </ul>
