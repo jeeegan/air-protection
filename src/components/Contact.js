@@ -4,7 +4,8 @@ const Contact = props => (
   <section id="contact">
     <div className="inner">
       <section>
-        <form method="post" action="#">
+        <form method="post" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact-form" />
           <div className="field half first">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" />
