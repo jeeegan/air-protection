@@ -18,7 +18,7 @@ class HomeIndex extends React.Component {
           meta={[
             {
               name: 'description',
-              content: 'Air Protection eco-friendly cleaning products',
+              content: 'Air Protection - Protecting your environment.',
             },
             {
               name: 'keywords',
