@@ -4,23 +4,43 @@ const Contact = props => (
   <section id="contact">
     <div className="inner">
       <section>
-        <form method="post" data-netlify="true" name="contact-form" action="/thanks">
-        <input type="hidden" name="form-name" value="contact-form" />
+        <form
+          method="post"
+          data-netlify="true"
+          name="contact-form"
+          enctype="multipart/form-data"
+          action="/thanks"
+        >
+          <input type="hidden" name="form-name" value="contact-form" />
           <div className="field half first">
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" required/>
+            <input type="text" name="name" id="name" required />
           </div>
           <div className="field half">
             <label htmlFor="email">Email</label>
-            <input type="text" name="email" id="email" required/>
+            <input type="text" name="email" id="email" required />
           </div>
           <div className="field half first">
             <label htmlFor="contact-number">Contact Number</label>
-            <input type="tel" name="contact-number" id="contact-number" required/>
+            <input
+              type="tel"
+              name="contact-number"
+              id="contact-number"
+              required
+            />
           </div>
           <div className="field half">
             <label htmlFor="company">Company</label>
             <input type="text" name="company" id="company" />
+          </div>
+          <div className="field">
+            <label htmlFor="order_form">Upload order form</label>
+            <input
+              type="file"
+              name="order_form"
+              id="order_form"
+              name="order_form"
+            />
           </div>
           <div className="field">
             <label htmlFor="message">Message</label>

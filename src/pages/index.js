@@ -104,7 +104,7 @@ class HomeIndex extends React.Component {
                 every space. Our management team has a long history in
                 commercial property management and healthcare solutions, putting
                 us in a unique position to help your business trade safely.
-                <br />
+                <br /><br />
                 Air Protection is a trading name of C.W. Cameron Ltd - trusted
                 for over 70 years.
               </p>
