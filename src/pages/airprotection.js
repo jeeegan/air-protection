@@ -30,9 +30,9 @@ const AirProtection = props => (
             suffers.
           </p>
           <p>
-            Room Mister - Ideal for dispersing a low ppm solution of Dew
-            into the air though a dry mist thus sanitising the air constantly.
-            It can be timer & humidity set or run constantly. It is ideal for
+            Room Mister - Ideal for dispersing a low ppm solution of Dew into
+            the air though a dry mist thus sanitising the air constantly. It can
+            be timer & humidity set or run constantly. It is ideal for
             receptions, offices, treatment rooms or just in your home.
           </p>
           <p>
@@ -46,12 +46,6 @@ const AirProtection = props => (
             products are eco-friendly, natural, hypoallergenic; food, child and
             pet safe.
           </p>
-          <h4>
-            <Link to="/#order">
-              For a full list of products & pricing in the Air Protection range
-              download our order form
-            </Link>
-          </h4>
         </div>
       </section>
     </div>
