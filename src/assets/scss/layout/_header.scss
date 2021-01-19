@@ -30,7 +30,6 @@
 			line-height: inherit;
 			padding: 0 1.5em;
 			vertical-align: middle;
-			//background-color: _palette(bg);
 			position: fixed;	
 			z-index: _misc(z-index-base);
 
@@ -71,7 +70,6 @@
 			@include vendor('flex-grow', '1');
 			height: inherit;
 			line-height: inherit;
-			//background-color: _palette(bg);
 			position: fixed;
 			width: 100%;
 			background-color: rgba(255,255,255,.05);
@@ -224,6 +222,7 @@
 		@include breakpoint(xsmall) {
 
 			nav {
+
 				a {
 					&.menu-link {
 						overflow: hidden;

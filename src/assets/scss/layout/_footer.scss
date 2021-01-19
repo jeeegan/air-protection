@@ -4,8 +4,8 @@
 
 		img {
 			height: 5em;
-			vertical-align: bottom;
 		}
+
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;
@@ -15,7 +15,6 @@
 				border-left: solid 1px _palette(border);
 				color: _palette(fg-light);
 				display: inline-block;
-				vertical-align: middle;
 				line-height: 1;
 				margin-left: 1em;
 				padding-left: 1em;
@@ -30,6 +29,10 @@
 		}
 
 		@include breakpoint(xsmall) {
+			img {
+				height: 3em;
+			}
+
 			.copyright {
 				li {
 					display: block;

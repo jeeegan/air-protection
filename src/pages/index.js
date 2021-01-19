@@ -80,6 +80,7 @@ class HomeIndex extends React.Component {
                   <a
                     href={`https://drive.google.com/file/d/1OZleyeVxMPjadB4tcWrm3XveIi8TNCjl/view?usp=sharing`}
                     target="_blank"
+                    rel="noreferrer"
                     download
                     className="button"
                   >
