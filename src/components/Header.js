@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import websiteLogo from '../assets/images/website-icon.png';
+import websiteLogo from '../assets/images/website-icon-logo.png';
 
 const Header = (props) => (
     <header id="header" className="alt">
