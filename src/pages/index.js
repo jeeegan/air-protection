@@ -95,12 +95,15 @@ class HomeIndex extends React.Component {
               </header>
               <p>
                 Air Protection was founded to give peace of mind in challenging
-                times. Our products help your company keep a clean and safe
-                workplace. We pride ourselves on working with our customers as
-                true partners to develop a bespoke solution for every space. Our
-                management team has a long history in commercial property
-                management and healthcare solutions, putting us in a unique
-                position to help your business trade safely.
+                times. Our products help your company ensure a clean and safe
+                workplace. As part of our offering, we have been appointed as a
+                Distributor of DEW Products, manufactured to the highest quality
+                by Ecoanolytes Limited, and comply with the relevant EU
+                standards for biocides. We pride ourselves on working with our
+                customers as true partners to develop a bespoke solution for
+                every space. Our management team has a long history in
+                commercial property management and healthcare solutions, putting
+                us in a unique position to help your business trade safely.
                 <br />
                 Air Protection is a trading name of C.W. Cameron Ltd - trusted
                 for over 70 years.
