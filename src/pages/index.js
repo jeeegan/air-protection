@@ -62,7 +62,7 @@ class HomeIndex extends React.Component {
                 <h3>Superclean</h3>
                 <p>Eco-friendly multi-purpose cleaner</p>
               </header>
-              <AnchorLink to="/products#superclean" className="link primary"></AnchorLink>
+              <AnchorLink to="/products#superclean" className="link primary"/>
             </article>
           </section>
           <section id="order" className="order">

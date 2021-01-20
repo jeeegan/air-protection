@@ -36,6 +36,10 @@ const Contact = props => (
             <input type="text" name="company" id="company" />
           </div>
           <div className="field">
+            <label htmlFor="message">Message</label>
+            <textarea name="message" id="message" rows="6"></textarea>
+          </div>
+          <div className="field">
             <label htmlFor="order_form">Upload order form (optional)</label>
             <input
               type="file"
@@ -48,10 +52,6 @@ const Contact = props => (
           <Link to="/#order">
               You can download our order form here
             </Link>
-          </div>
-          <div className="field">
-            <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" rows="6"></textarea>
           </div>
           <ul className="actions">
             <li>
