@@ -79,7 +79,7 @@ class HomeIndex extends React.Component {
               <ul className="actions">
                 <li>
                   <a
-                    href={`https://drive.google.com/file/d/1OZleyeVxMPjadB4tcWrm3XveIi8TNCjl/view?usp=sharing`}
+                    href={`https://drive.google.com/file/d/1NieKEwpaglUEHHmpZe5wras9USeKtbJs/view?usp=sharing`}
                     target="_blank"
                     rel="noreferrer"
                     download
