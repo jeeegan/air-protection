@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerProducts from '../components/BannerProducts'
-import officeMister from '../assets/images/officeMisterAlpha.png'
-import disinfectPack from '../assets/images/DisinfectPack2_1296xAlpha.png'
+import officeMister from '../assets/images/airprotectionAlpha.png'
+import disinfectPack from '../assets/images/disinfect.png'
 import supercleanPack from '../assets/images/SupercleanPack2_1296xAlpha.png'
 
 const Products = props => (
