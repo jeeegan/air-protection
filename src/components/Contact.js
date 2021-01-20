@@ -1,9 +1,11 @@
 import React from 'react'
+import {Link } from 'gatsby'
 
 const Contact = props => (
   <section id="contact">
     <div className="inner">
       <section>
+        <h2>Contact Us</h2>
         <form
           method="post"
           data-netlify="true"
@@ -34,13 +36,18 @@ const Contact = props => (
             <input type="text" name="company" id="company" />
           </div>
           <div className="field">
-            <label htmlFor="order_form">Upload order form</label>
+            <label htmlFor="order_form">Upload order form (optional)</label>
             <input
               type="file"
               name="order_form"
               id="order_form"
               name="order_form"
             />
+          </div>
+          <div className="field">
+          <Link to="/#order">
+              You can download our order form here
+            </Link>
           </div>
           <div className="field">
             <label htmlFor="message">Message</label>

@@ -37,14 +37,14 @@ class HomeIndex extends React.Component {
                 <h3>Air Protection</h3>
                 <p>Disinfecting dry-mister & fogging machines</p>
               </header>
-              <Link to="/airprotection" className="link primary"></Link>
+              <Link to="/products/#airprotection" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${disinfectPack})` }}>
               <header className="major">
                 <h3>Disinfect</h3>
                 <p>Fast-acting surface, air & hand sanitiserss</p>
               </header>
-              <Link to="/disinfect" className="link primary"></Link>
+              <Link to="/products/#disinfect" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${foggingMachine})` }}>
               <header className="major">
@@ -61,7 +61,7 @@ class HomeIndex extends React.Component {
                 <h3>Superclean</h3>
                 <p>Eco-friendly multi-purpose cleaner</p>
               </header>
-              <Link to="/superclean" className="link primary"></Link>
+              <Link to="/products/#superclean" className="link primary"></Link>
             </article>
           </section>
           <section id="order" className="order">
