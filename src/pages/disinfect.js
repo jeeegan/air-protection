@@ -28,6 +28,15 @@ const Disinfect = props => (
           </p>
           <p>The DEW disinfect range includes general-purpose cleaners and hand sanitisers. Available in ready to use bottles as well as refillable dispensers.</p>
           <p>
+            Dew Disinfect, is an eco-friendly, naturally kinder, super effective
+            and safe disinfectant that kills Germs 30 Times Faster than normal
+            household Chemicals and bleach. Utilising electrolysed water, Dew
+            Disinfect is hypoallergenic and 99.995% effective at killing
+            bacteria, such as the Flu, Listeria, Legionella, E.coli,
+            Staphylococcus, Norovirus, and much, much more. Safe to use around
+            family and pets, and no need for rubber gloves!
+          </p>
+          <p>
             DEW disinfect hand sanitiser is bottled, ‘electrolysed’ water, manufactured
             from deionised water and high purity salt (Sodium Chloride). It
             offers the highest grade in multi-spectrum disinfection for your

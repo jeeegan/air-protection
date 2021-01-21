@@ -21,6 +21,17 @@ const AirProtection = props => (
               Order Now
             </Link>
           </header>
+          <p>
+            Our room mister is It is ideal for receptions, offices, treatment
+            rooms or just in your home. It is compact, yet powerful and it's
+            stylish design will blend in with your existing decor.
+          </p>
+          <p>
+            Our office fogging machine disinfects every surface as well as
+            cleaning the air itself, resulting in a hygienically clean space
+            where bacteria, spores, viruses, pollen etc. have been purged from
+            the air.
+          </p>
           <p>For complete Air Protection we offer the following products:</p>
 
           <p>
@@ -30,21 +41,16 @@ const AirProtection = props => (
             suffers.
           </p>
           <p>
-            Room Mister - Ideal for dispersing a low ppm solution of Dew into
-            the air though a dry mist thus sanitising the air constantly. It can
-            be timer & humidity set or run constantly. It is ideal for
-            receptions, offices, treatment rooms or just in your home.
+            Office/Room Mister - Ideal for dispersing a low ppm solution of Dew
+            into the air though a dry mist thus sanitising the air constantly.
+            It can be timer & humidity set or run constantly.
           </p>
           <p>
             Fogging Machine - Uses an Ultra Low Volume Nebuliser that creates
-            micro droplets. These droplets are dispersed into the air, float
-            then slowly fall, disinfecting every surface as well as cleaning the
-            air itself, resulting in a hygienically clean space where bacteria,
-            spores, viruses, pollen etc. have been purged from the air. The
-            C100+ ULV cold fogger has been redesigned to offer the ultimate in
-            fogging performance (includes 4 Dew Ready Mix 5 L Refills). All our
-            products are eco-friendly, natural, hypoallergenic; food, child and
-            pet safe.
+            micro droplets. The C100+ ULV cold fogger has been redesigned to
+            offer the ultimate in fogging performance (includes 4 Dew Ready Mix
+            5 L Refills). All our products are eco-friendly, natural,
+            hypoallergenic; food, child and pet safe.
           </p>
           <h4>
             <Link to="/#order">
