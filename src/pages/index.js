@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HomepageBanner from '../components/HomepageBanner'
@@ -55,7 +54,7 @@ class HomeIndex extends React.Component {
                   installlation
                 </p>
               </header>
-              <AnchorLink to="/services" className="link primary"></AnchorLink>
+              <Link to="/services" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${supercleanPack})` }}>
               <header className="major">
