@@ -32,20 +32,6 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${officeMister})` }}>
-              <header className="major">
-                <h3>Air Protection</h3>
-                <p>Disinfecting dry-mister & fogging machines</p>
-              </header>
-              <Link to="/products/#airProtection" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${disinfectPack})` }}>
-              <header className="major">
-                <h3>Disinfect</h3>
-                <p>Fast-acting surface, air & hand sanitiserss</p>
-              </header>
-              <Link to="/products/#disinfect" className="link primary"></Link>
-            </article>
             <article style={{ backgroundImage: `url(${foggingMachine})` }}>
               <header className="major">
                 <h3>Our Services</h3>
@@ -56,12 +42,26 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/services" className="link primary"></Link>
             </article>
+            <article style={{ backgroundImage: `url(${officeMister})` }}>
+              <header className="major">
+                <h3>Air Protection</h3>
+                <p>Disinfecting dry-mister & fogging machines</p>
+              </header>
+              <Link to="/products" className="link primary"></Link>
+            </article>
+            <article style={{ backgroundImage: `url(${disinfectPack})` }}>
+              <header className="major">
+                <h3>Disinfect</h3>
+                <p>Fast-acting surface, air & hand sanitiserss</p>
+              </header>
+              <Link to="/products" className="link primary"></Link>
+            </article>
             <article style={{ backgroundImage: `url(${supercleanPack})` }}>
               <header className="major">
                 <h3>Superclean</h3>
                 <p>Eco-friendly multi-purpose cleaner</p>
               </header>
-              <Link to="/products/#superclean" className="link primary"/>
+              <Link to="/products" className="link primary" />
             </article>
           </section>
           <section id="order" className="order">
@@ -106,7 +106,8 @@ class HomeIndex extends React.Component {
                 every space. Our management team has a long history in
                 commercial property management and healthcare solutions, putting
                 us in a unique position to help your business trade safely.
-                <br /><br />
+                <br />
+                <br />
                 Air Protection is a trading name of C.W. Cameron Ltd - trusted
                 for over 70 years.
               </p>
