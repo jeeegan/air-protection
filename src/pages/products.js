@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerProducts from '../components/BannerProducts'
-import officeMister from '../assets/images/airprotectionAlpha.png'
-import disinfectPack from '../assets/images/disinfect.png'
-import supercleanPack from '../assets/images/SupercleanPack2_1296xAlpha.png'
+import foggerMister from '../assets/images/foggerMisterAlpha.png'
+import handSanitiser from '../assets/images/handSanitiser.png'
+import cleanProtection from '../assets/images/cleanProtection.png'
 
 const Products = props => (
   <Layout>
@@ -16,39 +17,39 @@ const Products = props => (
     <BannerProducts />
 
     <div id="products">
-      <section id="airProtection">
+      <section id="foggersMisters">
         <div className="inner">
           <header className="major">
-            <img src={officeMister} alt="office mister" />
-            <h3>Air Protection</h3>
+            <img src={foggerMister} alt="office misters and foggers" />
+            <h3>Foggers & Misters</h3>
             <p>Disinfecting dry-mister & office fogging machines</p>
-            <a href="/airprotection" className="button next scrolly">
-              Air Protection Products
-            </a>
+            <Link to="/foggers_misters" className="button next scrolly">
+              More Info
+            </Link>
           </header>
         </div>
       </section>
-      <section id="disinfect">
+      <section id="handSanitiser">
         <div className="inner alt">
           <header className="major">
-            <img src={disinfectPack} alt="disinfect pack" />
-            <h3>Disinfect</h3>
-            <p>Fast-acting surface, air & hand sanitiserss</p>
-            <a href="/disinfect" className="button next scrolly">
-              Disinfect Products
-            </a>
+            <img src={handSanitiser} alt="hand sanitiser" />
+            <h3>Hand Sanitiser</h3>
+            <p>Fast-acting, skin-friendly, alcohol-free hand sanitiser</p>
+            <Link to="/hand_sanitiser" className="button next scrolly">
+              More Info
+            </Link>
           </header>
         </div>
       </section>
-      <section id="superclean">
+      <section id="cleaningProtection">
         <div className="inner">
           <header className="major">
-            <img src={supercleanPack} alt="superclean pack" />
-            <h3>Superclean</h3>
-            <p>Eco-friendly multi-purpose cleaner</p>
-            <a href="/superclean" className="button next scrolly">
-              Superclean Products
-            </a>
+            <img src={cleanProtection} alt="clean protection" />
+            <h3>Clean Protection</h3>
+            <p>Eco-friendly multi-purpose surface cleaners</p>
+            <Link to="/clean_protection" className="button next scrolly">
+              More Info
+            </Link>
           </header>
         </div>
       </section>

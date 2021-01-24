@@ -6,7 +6,7 @@ const Footer = (props) => (
         <div className="inner">
             <ul className="copyright">
                 <li><img src={websiteLogo}/></li>
-                <li>&copy; <a href="https://www.cwcameron.co.uk">C.W. Cameron Ltd T/A Air Protection</a></li>
+                <li>&copy; C.W. Cameron Ltd T/A Air Protection</li>
                 <li>Company Registration Number SC612088</li>
                 <li>VAT Registration Number GB330024564</li>
             </ul>
