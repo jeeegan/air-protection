@@ -22,15 +22,61 @@ const FoggersMisters = props => (
               Order Now
             </Link>
           </header>
-          
+          <h3>Office/Room Mister</h3>
           <p>
-            Office/Room Mister - Used to disperse a low ppm solution of Dew into
-            the air though a dry mist thus sanitising the air constantly. It can
-            be timer & humidity set or run continuously. Ideal for receptions,
-            offices, treatment rooms etc.
+            This high specification Ultrasonic Sanitising Humidifier silently
+            disperses a very fine mist of DEW Disinfect to sanitise and purify
+            the air and surfaces within your office, reception, meeting room,
+            treatment room, shop floor, etc. It provides a visual sense of
+            proactively protecting your people and your customers - keeping your
+            working environment healthy and safe.
           </p>
+          <p>
+            Combined with the rapid and lasting rate of disinfection of the
+            circulating air and critical shared surface contact points such as
+            door handles, key-boards, light switches, the Office/Room Mister
+            also maintains your workplace at the optimal relative humidity of
+            between 40-60% to combat the dehydrating effect of air-conditioning
+            and heating. As well as helping to prevent your skin and eyes from
+            drying out, this mister also ensures that the mucous membranes
+            within your respiratory tract don’t dry out, which in turn, aids
+            clearance of dust, bacteria, viruses, and other harmful airborne
+            contaminants.
+          </p>
+          <p>
+            Only use with DEW Disinfect to ensure: 99.995% efficacy against
+            airborne and surface bacteria, viruses and fungi; rapid disinfection
+            rate; hypoallergenic; neutralise odours; non-corrosive;
+            non-staining; non-toxic; environmentally friendly.
+          </p>
+          <h4>Features:</h4>
+          <ul>
+            <li>2-in-1 silent sanitising humidifier and air purifier</li>
+            <li>
+              Ultrasonic technology disperses a very fine (non-wetting)
+              sanitising mist - safe around electrical/electronic equipment
+            </li>
+            <li>360° directional misting</li>
+            <li>3 adjustable levels of misting intensity</li>
+            <li>3 adjustable levels of relative humidity (40%, 50%, 60%)</li>
+            <li>
+              Up to 13 hours running time thanks to large 4L reservior tank
+            </li>
+            <li>
+              Ionizer function helps remove and filter out air-borne particles
+              for better air quality
+            </li>
+            <li>Automatic mode, baby mode and night mode</li>
+            <li>
+              Timer function - set to switch-off after min 1 - max 12 hours
+              runtime
+            </li>
+            <li>Displays the current relative humidity of the room</li>
+            <li>Automatic shutdown on timer or if reservoir tank is empty</li>
+            <li>LED ambience lighting function</li>
+          </ul>
           <img src={officeMisterMachine} alt="office mister machine" />
-          
+
           <p>
             Fogging Machine - Disinfects every surface as well as cleaning the
             air itself, resulting in a hygienically clean space where bacteria,
@@ -50,7 +96,7 @@ const FoggersMisters = props => (
               download our order form
             </Link>
           </h4>
-          <br/>
+          <br />
           <Link to="/products" className="button next scrolly">
             View All Product Ranges
           </Link>
