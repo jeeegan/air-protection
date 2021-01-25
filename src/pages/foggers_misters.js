@@ -74,6 +74,9 @@ const FoggersMisters = props => (
             <li>Displays the current relative humidity of the room</li>
             <li>Automatic shutdown on timer or if reservoir tank is empty</li>
             <li>LED ambience lighting function</li>
+            <li>Suitable for rooms up to 30 m² / 75 m³</li>
+            <li>Dimensions (L x W x H) 285 x 175 x 290 mm</li>
+            <li>Weight: 3 kg</li>
           </ul>
           <img src={officeMisterMachine} alt="office mister machine" />
 
