@@ -56,6 +56,12 @@ const HandSanitiser = props => (
             remains active until it evaporates or naturally decays back to its
             original components of just water and salt.
           </p>
+          <p>
+            DEW Air - Supplied in a specially designed trigger spray nebuliser
+            that generates a super-fine spray without the use of an aerosol. For
+            immediate use, providing rapid relief for allergy and hay-fever
+            suffers.
+          </p>
           <h4>
             <span>For a full list of products & pricing </span>
             <Link to="/#order" style={{ textDecoration: 'underline' }}>

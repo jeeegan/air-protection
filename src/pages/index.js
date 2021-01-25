@@ -4,10 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import HomepageBanner from '../components/HomepageBanner'
 
-import disinfectPack from '../assets/images/DisinfectPack2_1296x.png'
+import cleanProtection from '../assets/images/cleanProtection.png'
 import officeMister from '../assets/images/officeMister.jpg'
 import foggingMachine from '../assets/images/foggingMachine.jpg'
-import supercleanPack from '../assets/images/SupercleanPack2_1296x.png'
+import handSanitiser from '../assets/images/handSanitiser.png'
 
 class HomeIndex extends React.Component {
   render() {
@@ -49,17 +49,17 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/foggers_misters" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${disinfectPack})` }}>
+            <article style={{ backgroundImage: `url(${handSanitiser})` }}>
               <header className="major">
-                <h3>Hand Sanitiser</h3>
-                <p>Fast-acting, skin-friendly, alcohol-free hand sanitiser</p>
+                <h3>Hand Sanitiser & Disinfectant</h3>
+                <p>Fast-acting, skin-friendly, alcohol-free hand sanitiser and disinfectant</p>
               </header>
               <Link to="/hand_sanitiser" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${supercleanPack})` }}>
+            <article style={{ backgroundImage: `url(${cleanProtection})` }}>
               <header className="major">
                 <h3>Clean Protection</h3>
-                <p>Eco-friendly multi-purpose surface cleaners</p>
+                <p>Eco-friendly, skin safe, multi-purpose surface cleaner, hand & body wash</p>
               </header>
               <Link to="/clean_protection" className="link primary" />
             </article>

@@ -37,12 +37,6 @@ const CleanProtection = props => (
             for stainless steel, anti-fogging on glass, cleaning of surfaces in
             the house or the car.
           </p>
-          <p>
-            DEW Air - Supplied in a specially designed trigger spray nebuliser
-            that generates a super-fine spray without the use of an aerosol. For
-            immediate use, providing rapid relief for allergy and hay-fever
-            suffers.
-          </p>
           <h4>
             <span>For a full list of products & pricing </span>
             <Link to="/#order" style={{ textDecoration: 'underline' }}>
