@@ -122,7 +122,7 @@ const FoggersMisters = props => (
               download our order form
             </Link>
           </h4>
-          <br />
+          <div className="break"></div>
           <Link to="/products" className="button next scrolly">
             View All Product Ranges
           </Link>
