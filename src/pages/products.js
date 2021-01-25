@@ -33,8 +33,8 @@ const Products = props => (
         <div className="inner alt">
           <header className="major">
             <img src={handSanitiser} alt="hand sanitiser" />
-            <h3>Hand Sanitiser</h3>
-            <p>Fast-acting, skin-friendly, alcohol-free hand sanitiser</p>
+            <h3>Hand Sanitiser & Disinfectant</h3>
+            <p>Fast-acting, skin-friendly, alcohol-free hand sanitiser and disinfectant</p>
             <Link to="/hand_sanitiser" className="button next scrolly">
               More Info
             </Link>
@@ -46,7 +46,7 @@ const Products = props => (
           <header className="major">
             <img src={cleanProtection} alt="clean protection" />
             <h3>Clean Protection</h3>
-            <p>Eco-friendly multi-purpose surface cleaners</p>
+            <p>Eco-friendly, skin safe, multi-purpose surface cleaner, hand & body wash</p>
             <Link to="/clean_protection" className="button next scrolly">
               More Info
             </Link>

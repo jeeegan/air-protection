@@ -13,7 +13,7 @@ const FoggersMisters = props => (
     </Helmet>
 
     <div id="foggersMistersPage">
-      <section id="one">
+      <section>
         <div className="inner">
           <header className="major">
             <h2>Foggers & Misters</h2>
@@ -23,8 +23,9 @@ const FoggersMisters = props => (
             </Link>
           </header>
           <h3>Office/Room Mister</h3>
-          <img src={officeMisterMachine} alt="office mister machine" />
+          <img src={officeMisterMachine} alt="office mister machine" className="major"/>
           <p>
+            
             This high specification Ultrasonic Sanitising Humidifier silently
             disperses a very fine mist of DEW Disinfect to sanitise and purify
             the air and surfaces within your office, reception, meeting room,

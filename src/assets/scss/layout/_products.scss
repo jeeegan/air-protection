@@ -30,8 +30,10 @@
 		background-color:_palette(accent1);
 	}
 
-	#foggersMisters, #handSanitiser, #cleanProtection {
-		
+	#foggersMistersPage, #handSanitiserPage, #cleanProtectionPage, #servicesPage {
+		img {
+			width: calc(100% + 0.5em);
+		}
 		.inner {
 			display: flex;
 			flex-wrap: wrap;

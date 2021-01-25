@@ -14,8 +14,8 @@ const Services = props => (
 
     <BannerServices />
 
-    <div id="main">
-      <section id="one">
+    <div id="servicesPage">
+      <section>
         <div className="inner">
           <header className="major">
             <h2>Getting Back to the Workplace</h2>

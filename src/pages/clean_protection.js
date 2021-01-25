@@ -12,7 +12,7 @@ const CleanProtection = props => (
     </Helmet>
 
     <div id="cleanProtectionPage">
-      <section id="one">
+      <section>
         <div className="inner">
           <header className="major">
             <img src={cleanProtection} alt="clean protection products" />
