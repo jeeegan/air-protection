@@ -23,6 +23,7 @@ const FoggersMisters = props => (
             </Link>
           </header>
           <h3>Office/Room Mister</h3>
+          <img src={officeMisterMachine} alt="office mister machine" />
           <p>
             This high specification Ultrasonic Sanitising Humidifier silently
             disperses a very fine mist of DEW Disinfect to sanitise and purify
@@ -78,20 +79,41 @@ const FoggersMisters = props => (
             <li>Dimensions (L x W x H) 285 x 175 x 290 mm</li>
             <li>Weight: 3 kg</li>
           </ul>
-          <img src={officeMisterMachine} alt="office mister machine" />
-
-          <p>
-            Fogging Machine - Disinfects every surface as well as cleaning the
-            air itself, resulting in a hygienically clean space where bacteria,
-            spores, viruses, pollen etc. have been purged from the air. Uses an
-            Ultra Low Volume Nebuliser that creates micro droplets. The C100+
-            ULV cold fogger has been redesigned to offer the ultimate in fogging
-            performance (includes 4 Dew Ready Mix 5 L Refills).
-          </p>
+          <h3>Fogging Machine</h3>
           <img src={foggingMachine} alt="fogging machine" />
           <p>
-            All our products are eco-friendly, natural, hypoallergenic; food,
-            child and pet safe.
+            This high performance, professional, Ultra-Low-Volume (ULV) cold
+            fogger disperses micro droplets (5-50 microns in diameter) of DEW
+            Disinfect for deep decontamination requirements in medical centres,
+            nurseries, care homes, offices, holiday homes and short-term
+            rentals, restaurants, cinemas, bars, retail shops, supermarkets,
+            hair salons, factory floors, food preparation areas, warehouses,
+            etc.
+          </p>
+          <p>
+            Only use with DEW Disinfect to ensure: 99.995% efficacy against
+            airborne and surface bacteria, viruses and fungi; rapid disinfection
+            rate; hypoallergenic; neutralise odours; non-corrosive;
+            non-staining; non-toxic; environmentally friendly.{' '}
+          </p>
+          <h4>Features:</h4>
+          <ul>
+            <li>Tank Capacity: 4 Litres DEW Disinfect</li>
+            <li>Power: 220V (10 metre AC cable supplied)</li>
+            <li>Motor: 1250 Watt Samsung Motor (Dual Speed)</li>
+            <li>Flow Rate: Up to 60 LPH</li>
+            <li>Droplet Size: 5-50 microns</li>
+            <li>Spray Distance: 8-15m</li>
+            <li>Net Weight: 3.5 kg</li>
+            <li>Dimensions: 52 x 30 x 16 cm</li>
+          </ul>
+          <p>
+            Important: Whilst Dew Disinfect is non-toxic to humans, animals, and
+            plant life, we always recommend that the area being decontaminated
+            is vacated during the procedure and that the operator is wearing
+            Personal Protective Equipment (PPE) N95 half mask or above (or PPF3
+            equivalent) and eye goggles (always assume a contaminated
+            environment pre-treatment).
           </p>
           <h4>
             <span>For a full list of products & pricing </span>
