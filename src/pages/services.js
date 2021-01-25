@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerServices from '../components/BannerServices'
 import { Link } from 'gatsby'
-import foggingMachine from '../assets/images/foggingMachineAlpha.png'
+import foggerMister from '../assets/images/foggerMisterAlpha.png'
 
 const Services = props => (
   <Layout>
@@ -39,7 +39,7 @@ const Services = props => (
           <li>Hypoallergenic, non-irritant and non-staining</li>
           <li>pH skin compatible, kind to skin</li>
           <li>Rapid disinfection</li>
-          <img src={foggingMachine} alt="fogging machine" />
+          <img src={foggerMister} alt="fogging machine" />
         </div>
       </section>
     </div>
