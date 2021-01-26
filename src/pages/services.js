@@ -19,6 +19,7 @@ const Services = props => (
         <div className="inner">
           <header className="major">
             <h2>Getting Back to the Workplace</h2>
+            
           </header>
   
           <p>
@@ -39,7 +40,10 @@ const Services = props => (
           <li>Hypoallergenic, non-irritant and non-staining</li>
           <li>pH skin compatible, kind to skin</li>
           <li>Rapid disinfection</li>
+          <div>
           <img src={foggerMister} alt="fogging machine" />
+          </div>
+          
         </div>
       </section>
     </div>
