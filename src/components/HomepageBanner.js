@@ -12,7 +12,7 @@ const HomepageBanner = props => (
           workplace, your people & customers.
           <br />
           <br />
-          Keep your working environment healthy & safe without harmful
+          Keep your working environment healthy, <span style={{fontWeight: "bold", textDecoration: "underline", fontStyle: "italic"}}>safe & clean</span> without harmful
           chemicals.
         </p>
         <ul className="actions">
