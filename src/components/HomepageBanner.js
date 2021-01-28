@@ -12,16 +12,16 @@ const HomepageBanner = props => (
           workplace, your people & customers.
           <br />
           <br />
-          Keep your working environment healthy,safe & clean without harmful
+          Keep your working environment healthy, safe & clean without harmful
           chemicals.
         </p>
-        <ul className="actions">
+        {/* <ul className="actions">
           <li>
             <a href="/products" className="button next scrolly">
               View Products
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   </section>
