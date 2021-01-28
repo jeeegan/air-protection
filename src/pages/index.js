@@ -78,7 +78,7 @@ class HomeIndex extends React.Component {
               <ul className="actions">
                 <li>
                   <a
-                    href={`https://drive.google.com/file/d/1HbLqfHgI2fAkB8FlZHHbEFNt2uO37UYX/view?usp=sharing`}
+                    href={`airProtectionOrderForm.xlsx`}
                     target="_blank"
                     rel="noreferrer"
                     download
