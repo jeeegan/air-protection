@@ -51,8 +51,8 @@ class HomeIndex extends React.Component {
             </article>
             <article style={{ backgroundImage: `url(${handSanitiser})` }}>
               <header className="major">
-                <h3>Hand Sanitiser & Disinfectant</h3>
-                <p>Fast-acting, skin-friendly, alcohol-free hand sanitiser and disinfectant</p>
+                <h3>Hand, Air & Surface Sanitiser</h3>
+                <p>Fast-acting, skin-friendly, alcohol-free, 99.995% effective</p>
               </header>
               <Link to="/hand_sanitiser" className="link primary"></Link>
             </article>

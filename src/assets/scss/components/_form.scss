@@ -79,10 +79,11 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(border-bg);
+		background: _palette(form-input);
 		border: none;
 		border-radius: 0;
-		color: inherit;
+		color: _palette(bg);
+		font-weight: bold;
 		display: block;
 		outline: 0;
 		padding: 0 1em;

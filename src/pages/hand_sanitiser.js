@@ -7,16 +7,16 @@ import handSanitiser from '../assets/images/handSanitiser.png'
 const HandSanitiser = props => (
   <Layout>
     <Helmet>
-      <title>Air Protection | Hand Sanitiser & Disinfectant Products Page</title>
-      <meta name="description" content="Hand Sanitiser & Disinfectant Products Page" />
+      <title>Air Protection | Hand, Air & Surface Sanitiser Products Page</title>
+      <meta name="description" content="Hand, Air & Surface Sanitiser Products Page" />
     </Helmet>
 
     <div id="handSanitiserPage">
       <section>
         <div className="inner">
           <header className="major">
-            <img src={handSanitiser} alt="Hand Sanitiser & Disinfectant products" />
-            <h2>Hand Sanitiser & Disinfectant</h2>
+            <img src={handSanitiser} alt="Hand, Air & Surface Sanitiser products" />
+            <h2>Hand, Air & Surface Sanitiser</h2>
             <Link to="/#order" className="button next scrolly">
               Order Now
             </Link>

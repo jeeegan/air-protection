@@ -33,8 +33,8 @@ const Products = props => (
         <div className="inner alt">
           <header className="major">
             <img src={handSanitiser} alt="hand sanitiser" />
-            <h3>Hand Sanitiser & Disinfectant</h3>
-            <p>Fast-acting, skin-friendly, alcohol-free hand sanitiser and disinfectant</p>
+            <h3>Hand, Air & Surface Sanitiser</h3>
+            <p>Fast-acting, skin-friendly, alcohol-free, 99.995% effective</p>
             <Link to="/hand_sanitiser" className="button next scrolly">
               More Info
             </Link>
