@@ -17,9 +17,9 @@ const HandSanitiser = props => (
           <header className="major">
             <img src={handSanitiser} alt="Hand, Air & Surface Sanitiser products" />
             <h2>Hand, Air & Surface Sanitiser</h2>
-            <Link to="/#order" className="button next scrolly">
+            {/* <Link to="/#order" className="button next scrolly">
               Order Now
-            </Link>
+            </Link> */}
           </header>
           <p>
             Welcome to a new range of hand sanitiser products powered by
@@ -62,15 +62,9 @@ const HandSanitiser = props => (
             immediate use, providing rapid relief for allergy and hay-fever
             suffers.
           </p>
-          <h4>
-            <span>For a full list of products & pricing </span>
-            <Link to="/#order" style={{ textDecoration: 'underline' }}>
-              download our order form
-            </Link>
-          </h4>
           <div className="break"></div>
-          <Link to="/products" className="button next scrolly">
-            View All Product Ranges
+          <Link to="/pricing" className="button next scrolly">
+            Pricing
           </Link>
         </div>
 

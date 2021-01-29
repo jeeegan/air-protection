@@ -17,9 +17,9 @@ const CleanProtection = props => (
           <header className="major">
             <img src={cleanProtection} alt="clean protection products" />
             <h2>Clean Protection Products</h2>
-            <Link to="/#order" className="button next scrolly">
+            {/* <Link to="/#order" className="button next scrolly">
               Order Now
-            </Link>
+            </Link> */}
           </header>
           <p>
             The Clean Protection range includes foams, sprays and ready-mix
@@ -37,15 +37,9 @@ const CleanProtection = props => (
             for stainless steel, anti-fogging on glass, cleaning of surfaces in
             the house or the car.
           </p>
-          <h4>
-            <span>For a full list of products & pricing </span>
-            <Link to="/#order" style={{ textDecoration: 'underline' }}>
-              download our order form
-            </Link>
-          </h4>
           <div className="break"></div>
-          <Link to="/products" className="button next scrolly">
-            View All Product Ranges
+          <Link to="/pricing" className="button next scrolly">
+            Pricing
           </Link>
         </div>
       </section>

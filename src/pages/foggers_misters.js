@@ -18,9 +18,9 @@ const FoggersMisters = props => (
           <header className="major">
             <h2>Foggers & Misters</h2>
             <br />
-            <Link to="/#order" className="button next scrolly">
+            {/* <Link to="/#order" className="button next scrolly">
               Order Now
-            </Link>
+            </Link> */}
           </header>
           <h3>Office/Room Mister</h3>
           <img src={officeMisterMachine} alt="office mister machine" className="major"/>
@@ -116,15 +116,9 @@ const FoggersMisters = props => (
             equivalent) and eye goggles (always assume a contaminated
             environment pre-treatment).
           </p>
-          <h4>
-            <span>For a full list of products & pricing </span>
-            <Link to="/#order" style={{ textDecoration: 'underline' }}>
-              download our order form
-            </Link>
-          </h4>
           <div className="break"></div>
-          <Link to="/products" className="button next scrolly">
-            View All Product Ranges
+          <Link to="/pricing" className="button next scrolly">
+            Pricing
           </Link>
         </div>
       </section>

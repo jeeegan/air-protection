@@ -12,13 +12,13 @@ const BannerServices = (props) => (
           We provide fogging decontamination services, site safety assessments & installations.
           <br />
         </p>
-        <ul className="actions">
+        {/* <ul className="actions">
           <li>
           <Link to="#contact" className="button next scrolly">
         Get in touch
       </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
         </div>
     </section>

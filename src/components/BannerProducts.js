@@ -13,13 +13,13 @@ const BannerLanding = props => (
           workplace, your people & customers.
           <br />
         </p>
-        <ul className="actions">
+        {/* <ul className="actions">
           <li>
           <Link to="/#order" className="button next scrolly">
         Order Now
       </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   </section>

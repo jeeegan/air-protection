@@ -64,7 +64,7 @@ class HomeIndex extends React.Component {
               <Link to="/clean_protection" className="link primary" />
             </article>
           </section>
-          <section id="order" className="order">
+          {/* <section id="order" className="order">
             <div className="inner">
               <header className="major">
                 <h2>Order</h2>
@@ -89,7 +89,7 @@ class HomeIndex extends React.Component {
                 </li>
               </ul>
             </div>
-          </section>
+          </section> */}
           <section id="about">
             <div className="inner">
               <header className="major">
