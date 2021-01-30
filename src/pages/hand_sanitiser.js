@@ -22,7 +22,7 @@ const HandSanitiser = props => (
 
     <div id="handSanitiserPage">
       <section>
-        <div className="inner">
+        <div className="inner" style={{alignItems: "flex-start"}}>
           <header className="major">
             <img
               src={handSanitiser}
