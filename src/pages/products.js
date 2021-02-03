@@ -22,7 +22,9 @@ const Products = props => (
           <header className="major">
             <img src={foggerMister} alt="office misters and foggers" />
             <h3>Foggers & Misters</h3>
-            <p>Disinfecting dry-mister & office fogging machines</p>
+            <p>
+              Office/room sanitising misters & professional fogging machines
+            </p>
             <Link to="/foggers_misters" className="button next scrolly">
               More Info
             </Link>
@@ -46,7 +48,10 @@ const Products = props => (
           <header className="major">
             <img src={cleanProtection} alt="clean protection" />
             <h3>Clean Protection</h3>
-            <p>Eco-friendly, skin safe, multi-purpose surface cleaner, hand & body wash</p>
+            <p>
+              Eco-friendly, skin safe, multi-purpose surface cleaner, hand &
+              body wash
+            </p>
             <Link to="/clean_protection" className="button next scrolly">
               More Info
             </Link>

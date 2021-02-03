@@ -22,7 +22,7 @@ const HandSanitiser = props => (
 
     <div id="handSanitiserPage">
       <section>
-        <div className="inner" style={{alignItems: "flex-start"}}>
+        <div className="inner" style={{ alignItems: 'flex-start' }}>
           <header className="major">
             <img
               src={handSanitiser}
@@ -68,11 +68,15 @@ const HandSanitiser = props => (
             style={{ width: '50%' }}
           />
           <div className="break"></div>
-          <h4>DEW Hand Sanitiser</h4>
+          <h3>DEW Hand Sanitiser</h3>
+          <div className="break"></div>
+          <h4>RRP from £3.49</h4>
+          <div className="break"></div>
+          <h5>Includes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
-            Available in 65ml pocket sized, 500ml spray bottles, and 1L wall
-            dispensers.
+            Available in 65ml pocket sized, 500ml refillable spray bottles, and
+            1L refil pouches wall-mounted dispensers.
           </p>
           <div className="break"></div>
           <img
@@ -81,11 +85,16 @@ const HandSanitiser = props => (
             style={{ width: '50%' }}
           />
           <div className="break"></div>
-          <h4>DEW Air</h4>
+          <h3>DEW Air</h3>
+          <div className="break"></div>
+          <h4>RRP £6.99</h4>
+          <div className="break"></div>
+          <h5>Includes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
-            Supplied in a specially designed 185ml trigger spray nebuliser that
-            generates a super-fine spray without the use of an aerosol.
+            Supplied in a specially designed refillable 185ml trigger spray
+            atomiser that generates a super-fine spray to sanitise and deoderise
+            the air, without the use of an aerosol.
           </p>
           <div className="break"></div>
           <img
@@ -94,9 +103,16 @@ const HandSanitiser = props => (
             style={{ width: '50%' }}
           />
           <div className="break"></div>
-          <h4>DEW Disinfect Surface Spray</h4>
+          <h3>DEW Disinfect Surface Spray</h3>
           <div className="break"></div>
-          <p>Supplied in a refillable 500ml spray bottle.</p>
+          <h4>RRP £4.99</h4>
+          <div className="break"></div>
+          <h5>Includes VAT @ 20%</h5>
+          <div className="break"></div>
+          <p>
+            Supplied in a refillable 500ml spray bottle, it is a no-rinse,
+            multi-surface, food-safe, non-toxic surface sanitiser.
+          </p>
           <div className="break"></div>
           <img
             src={dewReadymixAlpha}
@@ -104,11 +120,16 @@ const HandSanitiser = props => (
             style={{ width: '50%' }}
           />
           <div className="break"></div>
-          <h4>DEW Disinfect Readymix</h4>
+          <h3>DEW Disinfect Readymix</h3>
+          <div className="break"></div>
+          <h4>RRP from £14</h4>
+          <div className="break"></div>
+          <h5>Includes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
-            Available in 5L, 10L, 20L sizes to refill Dew Hand sanitiser, DEW
-            Air, and DEW Disinfect Surface Spray.
+            Available in 5L, 10L & 20 L bottles, to conveniently refill Dew Hand
+            Sanitiser, DEW Air, and DEW Disinfect Surface Spray. Optional tap
+            dispenser available for 5L.
           </p>
           <div className="break"></div>
           <Link to="/pricing" className="button next scrolly">

@@ -4,6 +4,8 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import foggingMachine from '../assets/images/foggingMachineAlpha.png'
 import officeMisterMachine from '../assets/images/officeMisterAlpha.png'
+import refillX25L from '../assets/images/2x5lreadymix.png'
+import refill5L20L from '../assets/images/refill5L20L.png'
 
 const FoggersMisters = props => (
   <Layout>
@@ -22,11 +24,12 @@ const FoggersMisters = props => (
               Order Now
             </Link> */}
           </header>
-          <h3>Office/Room Mister</h3>
-          <img src={officeMisterMachine} alt="office mister machine" className="major"/>
+          <h3>Office/Room Sanitising Mister</h3>
+          <h4>RRP £115 (includes 2 x 5L refills)</h4>
+          <h5>Includes VAT @ 20%</h5>
+          <img src={officeMisterMachine} alt="office mister machine" />
           <p>
-            
-            This high specification Ultrasonic Sanitising Humidifier silently
+            This high specification Ultrasonic Sanitising Mister silently
             disperses a very fine mist of DEW Disinfect to sanitise and purify
             the air and surfaces within your office, reception, meeting room,
             treatment room, shop floor, etc. It provides a visual sense of
@@ -45,18 +48,23 @@ const FoggersMisters = props => (
             clearance of dust, bacteria, viruses, and other harmful airborne
             contaminants.
           </p>
+          <img src={refillX25L} alt="2 x 5L refills" />
           <p>
             Only use with DEW Disinfect to ensure: 99.995% efficacy against
             airborne and surface bacteria, viruses and fungi; rapid disinfection
             rate; hypoallergenic; neutralise odours; non-corrosive;
             non-staining; non-toxic; environmentally friendly.
           </p>
+          <p>
+            DEW Disinfect Readymix Refills available in 5L, 10L and 20L options
+            - see <Link to="/pricing">price list</Link> for details
+          </p>
           <h4>Features:</h4>
           <ul>
             <li>2-in-1 silent sanitising humidifier and air purifier</li>
             <li>
-              Ultrasonic technology disperses a very fine (non-wetting)
-              sanitising mist - safe around electrical/electronic equipment
+              Ultrasonic technology disperses a very fine dry mist of DEW
+              Disinfect - safe around electrical/electronic equipment
             </li>
             <li>360° directional misting</li>
             <li>3 adjustable levels of misting intensity</li>
@@ -80,7 +88,9 @@ const FoggersMisters = props => (
             <li>Dimensions (L x W x H) 285 x 175 x 290 mm</li>
             <li>Weight: 3 kg</li>
           </ul>
-          <h3>Fogging Machine</h3>
+          <h3>Professional Fogging Machine</h3>
+          <h4>RRP £599</h4>
+          <h5>Includes VAT @ 20%</h5>
           <img src={foggingMachine} alt="fogging machine" />
           <p>
             This high performance, professional, Ultra-Low-Volume (ULV) cold
@@ -91,11 +101,17 @@ const FoggersMisters = props => (
             hair salons, factory floors, food preparation areas, warehouses,
             etc.
           </p>
+          <img src={refill5L20L} alt="refills 5l 20l" />
           <p>
             Only use with DEW Disinfect to ensure: 99.995% efficacy against
             airborne and surface bacteria, viruses and fungi; rapid disinfection
             rate; hypoallergenic; neutralise odours; non-corrosive;
             non-staining; non-toxic; environmentally friendly.{' '}
+          </p>
+          <p>
+            DEW Disinfect Readymix Refills available in 5L, 10L and 20L options
+            - Fogger Starter packs get 15% off Refills - see{' '}
+            <Link to="/pricing">price list</Link> for details
           </p>
           <h4>Features:</h4>
           <ul>

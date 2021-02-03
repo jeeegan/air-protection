@@ -45,21 +45,28 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${officeMister})` }}>
               <header className="major">
                 <h3>Foggers & Misters</h3>
-                <p>Disinfecting dry-mister & office fogging machines</p>
+                <p>
+                  Office/room sanitising misters & professional fogging machines
+                </p>
               </header>
               <Link to="/foggers_misters" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${handSanitiser})` }}>
               <header className="major">
                 <h3>Hand, Air & Surface Sanitiser</h3>
-                <p>Fast-acting, skin-friendly, alcohol-free, 99.995% effective</p>
+                <p>
+                  Fast-acting, skin-friendly, alcohol-free, 99.995% effective
+                </p>
               </header>
               <Link to="/hand_sanitiser" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${cleanProtection})` }}>
               <header className="major">
                 <h3>Clean Protection</h3>
-                <p>Eco-friendly, skin safe, multi-purpose surface cleaner, hand & body wash</p>
+                <p>
+                  Eco-friendly, skin safe, multi-purpose surface cleaner, hand &
+                  body wash
+                </p>
               </header>
               <Link to="/clean_protection" className="link primary" />
             </article>
