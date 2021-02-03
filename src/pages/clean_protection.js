@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import cleanProtection from '../assets/images/cleanProtection.png'
-import refill5L20L from '../assets/images/refill5L20L.png'
+import supercleanRefill5L20L from '../assets/images/supercleanRefill5L20L.png'
 import dewSupercleanAlpha from '../assets/images/dewSupercleanAlpha.png'
 import dewFoamAlpha from '../assets/images/dewFoamAlpha.png'
 
@@ -67,7 +67,11 @@ const CleanProtection = props => (
             effective and yet very gentle hand and body wash. It is non-scented,
             hypoallergenic, and ideal for both sensitive skin and oily skin.
           </p>
-          <img src={refill5L20L} className="small-img" alt="5l 20l refills" />
+          <img
+            src={supercleanRefill5L20L}
+            className="small-img"
+            alt="5l 20l refills"
+          />
           <div className="break"></div>
           <h3>DEW Superclean Readymix Refills</h3>
           <div className="break"></div>
@@ -77,8 +81,9 @@ const CleanProtection = props => (
           <div className="break"></div>
           <p>
             Available in 5L, 10L & 20 L bottles, to conveniently refill your DEW
-            Superclean Surface Spray and DEW Foam Hand & Body Wash. Optional tap
-            dispenser available for 5L.
+            Superclean Surface Spray and DEW Foam Hand & Body Wash. 10L and 20L
+            bottles come with a tap dispenser, the 5L bottle comes with a screw
+            cap.
           </p>
           <div className="break"></div>
           <Link to="/pricing" className="button next scrolly">

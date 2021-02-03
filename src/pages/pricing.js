@@ -29,12 +29,50 @@ const Pricing = props => (
               <th>Foggers & Misters</th>
             </tr>
             <tr>
-              <td>Office / Home Dry Mister (with 2 × 5L Disinfect Refill)</td>
+              <td>
+                Office/Room Sanitising Mister (with 2 × 5L Disinfect Readymix
+                Refill)
+              </td>
               <td>£115.00</td>
             </tr>
             <tr>
-              <td>Fogging Machine - Ultra Low Volume Nebuliser</td>
+              <td>
+                Mister Bonus Starter Pack A - add 1 x 10L Disinfect Readymix
+                Refill with Tap
+              </td>
+              <td>£29.95</td>
+            </tr>
+            <tr>
+              <td>
+                Mister Bonus Starter Pack B - add 1 x 20L Disinfect Readymix
+                Refill with Tap
+              </td>
+              <td>£39.27</td>
+            </tr>
+            <tr>
+              <td>Professional Fogging Machine</td>
               <td>£599.00</td>
+            </tr>
+            <tr>
+              <td>
+                Fogger Bonus Starter Pack A - add 4 x 5L Disinfect Readymix
+                Refills
+              </td>
+              <td>£47.60</td>
+            </tr>
+            <tr>
+              <td>
+                Fogger Bonus Starter Pack B - add 1 x 10L Disinfect Readymix
+                Refill with Tap
+              </td>
+              <td>£22.95</td>
+            </tr>
+            <tr>
+              <td>
+                Fogger Bonus Starter Pack C - add 1 x 20L Disinfect Readymix
+                Refill with Tap
+              </td>
+              <td>£39.27</td>
             </tr>
             <tr>
               <th>Hand, Air & Surface Sanitiser</th>
@@ -78,7 +116,7 @@ const Pricing = props => (
               <td>£14.40</td>
             </tr>
             <tr>
-              <td>Dew Hand Sanitiser Dispenser – Refill 1L</td>
+              <td>Dew Hand Sanitiser 1L - Dispenser Refill</td>
               <td>£8.10</td>
             </tr>
             <tr>
@@ -93,13 +131,7 @@ const Pricing = props => (
             </tr>
             <tr>
               <td>Dew Foam 200ml - Hand & Body Wash</td>
-              <td>£4.48</td>
-            </tr>
-            <tr>
-              <td>
-                Dew Foam 250ml - Hand & Body Wash (25% Extra Special Offer)
-              </td>
-              <td>£4.48</td>
+              <td>£4.49</td>
             </tr>
             <tr>
               <td>Dew Superclean Refill 5L (Superclean & Foam)</td>
@@ -110,21 +142,13 @@ const Pricing = props => (
               <td>£27.00</td>
             </tr>
             <tr>
-              <td>Dew Superclean Refill 10L with Cap (Superclean & Foam)</td>
-              <td>£24.00</td>
-            </tr>
-            <tr>
               <td>Dew Superclean Refill 20L with Tap (Superclean & Foam)</td>
               <td>£46.20</td>
             </tr>
-            <tr>
-              <td>Dew Superclean Refill 20L with Cap (Superclean & Foam)</td>
-              <td>£41.00</td>
-            </tr>
           </table>
           <p>
-            * Contract/bulk pricing available on request. All prices include VAT
-            @ 20%.
+            * Trade, Contract, Volume Pricing available on request. All prices
+            include VAT @ 20%
           </p>
         </div>
       </section>

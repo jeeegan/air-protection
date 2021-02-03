@@ -128,8 +128,9 @@ const HandSanitiser = props => (
           <div className="break"></div>
           <p>
             Available in 5L, 10L & 20 L bottles, to conveniently refill Dew Hand
-            Sanitiser, DEW Air, and DEW Disinfect Surface Spray. Optional tap
-            dispenser available for 5L.
+            Sanitiser, DEW Air, and DEW Disinfect Surface Spray. 10L and 20L
+            bottles come with a tap dispenser, the 5L bottle comes with a screw
+            cap.
           </p>
           <div className="break"></div>
           <Link to="/pricing" className="button next scrolly">

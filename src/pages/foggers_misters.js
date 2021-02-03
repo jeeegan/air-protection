@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import foggingMachine from '../assets/images/foggingMachineAlpha.png'
 import officeMisterMachine from '../assets/images/officeMisterAlpha.png'
-import refillX25L from '../assets/images/2x5lreadymix.png'
+import refillX25L from '../assets/images/refillX25L.png'
 import refill5L20L from '../assets/images/refill5L20L.png'
 
 const FoggersMisters = props => (
@@ -28,6 +28,7 @@ const FoggersMisters = props => (
           <h4>RRP £115 (includes 2 x 5L refills)</h4>
           <h5>Includes VAT @ 20%</h5>
           <img src={officeMisterMachine} alt="office mister machine" />
+          <img src={refillX25L} alt="2 x 5L refills" />
           <p>
             This high specification Ultrasonic Sanitising Mister silently
             disperses a very fine mist of DEW Disinfect to sanitise and purify
@@ -48,7 +49,6 @@ const FoggersMisters = props => (
             clearance of dust, bacteria, viruses, and other harmful airborne
             contaminants.
           </p>
-          <img src={refillX25L} alt="2 x 5L refills" />
           <p>
             Only use with DEW Disinfect to ensure: 99.995% efficacy against
             airborne and surface bacteria, viruses and fungi; rapid disinfection
@@ -57,7 +57,8 @@ const FoggersMisters = props => (
           </p>
           <p>
             DEW Disinfect Readymix Refills available in 5L, 10L and 20L options
-            - see <Link to="/pricing">price list</Link> for details
+            - Mister Starter packs get 15% off Refills - see{' '}
+            <Link to="/pricing">price list</Link> for details
           </p>
           <h4>Features:</h4>
           <ul>
@@ -92,6 +93,7 @@ const FoggersMisters = props => (
           <h4>RRP £599</h4>
           <h5>Includes VAT @ 20%</h5>
           <img src={foggingMachine} alt="fogging machine" />
+          <img src={refill5L20L} className="small-img" alt="refills 5l 20l" />
           <p>
             This high performance, professional, Ultra-Low-Volume (ULV) cold
             fogger disperses micro droplets (5-50 microns in diameter) of DEW
@@ -101,7 +103,6 @@ const FoggersMisters = props => (
             hair salons, factory floors, food preparation areas, warehouses,
             etc.
           </p>
-          <img src={refill5L20L} alt="refills 5l 20l" />
           <p>
             Only use with DEW Disinfect to ensure: 99.995% efficacy against
             airborne and surface bacteria, viruses and fungi; rapid disinfection
