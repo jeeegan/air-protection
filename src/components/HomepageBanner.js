@@ -9,7 +9,7 @@ const HomepageBanner = props => (
       <div className="content">
         <p>
           We provide eco-friendly air, surface & hand sanitisers to protect your
-          workplace, your people & customers.
+          workplace, your people, your customers.
           <br />
           <br />
           Keep your working environment healthy, safe & clean without harmful
