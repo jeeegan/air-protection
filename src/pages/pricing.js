@@ -15,7 +15,7 @@ const Pricing = props => (
             <h2>Price List</h2>
           </header>
           <p>
-            <a href={`priceList.pdf`} target="_blank" rel="noreferrer" download>
+            <a href={`priceList.pdf`} target="_blank" rel="noreferrer">
               You can download our full price list here
             </a>
           </p>
