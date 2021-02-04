@@ -113,11 +113,11 @@ const Pricing = props => (
             </tr>
             <tr>
               <td>Dew Hand Sanitiser Dispenser – Wall Mounted</td>
-              <td>£14.40</td>
+              <td>£19.50</td>
             </tr>
             <tr>
               <td>Dew Hand Sanitiser 1L - Dispenser Refill</td>
-              <td>£8.10</td>
+              <td>£12.50</td>
             </tr>
             <tr>
               <th>Clean Protection</th>
