@@ -120,7 +120,7 @@ const HandSanitiser = props => (
             style={{ width: '50%' }}
           />
           <div className="break"></div>
-          <h3>DEW Disinfect Readymix</h3>
+          <h3>DEW Disinfect Readymix Refills</h3>
           <div className="break"></div>
           <h4>RRP from £14</h4>
           <div className="break"></div>
