@@ -1,9 +1,12 @@
-const path = require('path');
+const path = require('path')
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   siteMetadata: {
-    title: "Air Protection",
-    description: "Protecting your workspace"
+    title: 'Air Protection',
+    description: 'Protecting your workspace',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -28,7 +31,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA_TRACKING_ID,
+      },
+    },
   ],
-  
 }
