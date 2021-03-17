@@ -1,6 +1,4 @@
-# gatsby-starter-forty
-
-**This is a starter for Gatsby.js V2.**
+# air-protection
 
 **Original design by HTML5 UP**
 

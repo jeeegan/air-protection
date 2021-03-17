@@ -21,12 +21,25 @@
   }
 }
 
-#foggersMisters {
+#officeMisters {
   background-color: _palette(accent6);
 }
 
 #handSanitiser {
   background-color: _palette(accent1);
+}
+
+#airPurification {
+  background-color: _palette(white);
+  h2, h3, h4, h5, li, p, a, Link {
+    color: _palette(bg);
+  }
+  .button {
+    &:hover, &:active {
+			box-shadow: inset 0 0 0 2px _palette(black);
+			color: _palette(black);
+		}
+  }
 }
 
 #handSanitiserPage,
@@ -44,9 +57,9 @@
   }
 }
 
-#foggersMistersPage {
+#officeMistersPage {
   img {
-    width: calc(45% + 0.5em);
+    width: calc(35% + 0.5em);
   }
 }
 

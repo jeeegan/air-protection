@@ -3,9 +3,10 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerProducts from '../components/BannerProducts'
-import foggerMister from '../assets/images/foggerMisterAlpha.png'
+import officeMisters from '../assets/images/officeMistersAlpha.png'
 import handSanitiser from '../assets/images/handSanitiser.png'
 import cleanProtection from '../assets/images/cleanProtection.png'
+import airPurification from '../assets/images/auraExplodedView.gif'
 
 const Products = props => (
   <Layout>
@@ -17,15 +18,25 @@ const Products = props => (
     <BannerProducts />
 
     <div id="products">
-      <section id="foggersMisters">
+      <section id="airPurification">
         <div className="inner">
           <header className="major">
-            <img src={foggerMister} alt="office misters and foggers" />
-            <h3>Foggers & Misters</h3>
-            <p>
-              Office/room sanitising misters & professional fogging machines
-            </p>
-            <Link to="/foggers_misters" className="button next scrolly">
+            <img src={airPurification} alt="air purification" />
+            <h3>Air Purification & Disinfection</h3>
+            <p>Smart Air Purification & Disinfection</p>
+            <Link to="/air_purification" className="button next scrolly">
+              More Info
+            </Link>
+          </header>
+        </div>
+      </section>
+      <section id="officeMisters">
+        <div className="inner">
+          <header className="major">
+            <img src={officeMisters} alt="office misters" />
+            <h3>Office Misters</h3>
+            <p>Office sanitising misters</p>
+            <Link to="/office_misters" className="button next scrolly">
               More Info
             </Link>
           </header>

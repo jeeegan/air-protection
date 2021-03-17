@@ -19,19 +19,24 @@ const Pricing = props => (
               You can download our full price list here
             </a>
           </p>
-
           <table>
             <tr>
               <th>Description</th>
               <th>Unit Price (inc VAT)*</th>
             </tr>
             <tr>
-              <th>Foggers & Misters</th>
+              <th>Office Misters</th>
             </tr>
             <tr>
               <td>
-                Office/Room Sanitising Mister (with 2 × 5L Disinfect Readymix
+                Office Sanitising Smart Mister (with 2 × 5L Disinfect Readymix
                 Refill)
+              </td>
+              <td>£199.00</td>
+            </tr>
+            <tr>
+              <td>
+                Office Sanitising Mister (with 2 × 5L Disinfect Readymix Refill)
               </td>
               <td>£115.00</td>
             </tr>
@@ -48,6 +53,9 @@ const Pricing = props => (
                 Refill with Tap
               </td>
               <td>£39.27</td>
+            </tr>
+            <tr>
+              <th>Foggers</th>
             </tr>
             <tr>
               <td>Professional Fogging Machine</td>

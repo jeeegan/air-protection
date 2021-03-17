@@ -5,9 +5,9 @@ import Layout from '../components/layout'
 import HomepageBanner from '../components/HomepageBanner'
 
 import cleanProtection from '../assets/images/cleanProtection.png'
-import officeMister from '../assets/images/officeMister.jpg'
-import foggingMachine from '../assets/images/foggingMachine.jpg'
+import officeMisters from '../assets/images/officeMistersAlpha.png'
 import handSanitiser from '../assets/images/handSanitiser.png'
+import auraExplodedView from '../assets/images/auraExplodedView.gif'
 
 class HomeIndex extends React.Component {
   render() {
@@ -32,33 +32,19 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${foggingMachine})` }}>
+            <article style={{ backgroundImage: `url(${officeMisters})` }}>
               <header className="major">
-                <h3>Our Services</h3>
-                <p>
-                  Fogging decontamination service, site safety assessment &
-                  installlation
-                </p>
+                <h3>Office Misters</h3>
+                <p>Office sanitising misters</p>
               </header>
-              <Link to="/services" className="link primary"></Link>
+              <Link to="/office_misters" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${officeMister})` }}>
+            <article style={{ backgroundImage: `url(${auraExplodedView})` }}>
               <header className="major">
-                <h3>Foggers & Misters</h3>
-                <p>
-                  Office/room sanitising misters & professional fogging machines
-                </p>
+                <h3>Air Purification & Disinfection</h3>
+                <p>Smart air purification & disinfection</p>
               </header>
-              <Link to="/foggers_misters" className="link primary"></Link>
-            </article>
-            <article style={{ backgroundImage: `url(${handSanitiser})` }}>
-              <header className="major">
-                <h3>Hand, Air & Surface Sanitiser</h3>
-                <p>
-                  Fast-acting, skin-friendly, alcohol-free, 99.995% effective
-                </p>
-              </header>
-              <Link to="/hand_sanitiser" className="link primary"></Link>
+              <Link to="/air_purification" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${cleanProtection})` }}>
               <header className="major">
@@ -70,33 +56,16 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/clean_protection" className="link primary" />
             </article>
-          </section>
-          {/* <section id="order" className="order">
-            <div className="inner">
+            <article style={{ backgroundImage: `url(${handSanitiser})` }}>
               <header className="major">
-                <h2>Order</h2>
+                <h3>Hand, Air & Surface Sanitiser</h3>
+                <p>
+                  Fast-acting, skin-friendly, alcohol-free, 99.995% effective
+                </p>
               </header>
-              <p>
-                To place an order simply download our order form below and send
-                it to us via our <a href="#contact">contact form</a>. Volume and
-                contract pricing are available, please{' '}
-                <a href="#contact">contact us</a> for a quote.
-              </p>
-              <ul className="actions">
-                <li>
-                  <a
-                    href={`airProtectionOrderForm.xlsx`}
-                    target="_blank"
-                    rel="noreferrer"
-                    download
-                    className="button"
-                  >
-                    Order Form Download
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </section> */}
+              <Link to="/hand_sanitiser" className="link primary"></Link>
+            </article>
+          </section>
           <section id="about">
             <div className="inner">
               <header className="major">
