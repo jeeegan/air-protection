@@ -72,20 +72,27 @@ class HomeIndex extends React.Component {
                 <h2>About Us</h2>
               </header>
               <p>
-                Air Protection was founded to give peace of mind in challenging
-                times. Our products help your company ensure a clean and safe
-                workplace. As part of our offering, we have been appointed as a
-                Distributor of DEW Products, manufactured to the highest quality
-                by Ecoanolytes Limited, and comply with the relevant EU
-                standards for biocides. We pride ourselves on working with our
-                customers as true partners to develop a bespoke solution for
-                every space. Our management team has a long history in
-                commercial property management and healthcare solutions, putting
-                us in a unique position to help your business trade safely.
+                Air Protection, a trading name of C W Cameron Ltd, a
+                long-established family business, is committed to helping
+                organisations better protect their workplace, their people,
+                their customers.
                 <br />
+                Ensuring healthy indoor air quality in the workplace to help
+                minimise sick leave and maximise productivity is a challenge.
+                Contributing factors include: lack of circulating fresh air;
+                inadequate ventilation; poor outdoor air quality; central
+                heating; and, air conditioning. Then, we can add viruses,
+                bacteria, pollen, dust, and other harmful contaminants to the
+                mix.
                 <br />
-                Air Protection is a trading name of C.W. Cameron Ltd - trusted
-                for over 70 years.
+                Our proven and cost-effective products can help your
+                organisation combat all of this via the latest in smart air
+                monitoring, filtering, purification and sanitisation.
+                <br />
+                Our management team has a wealth of experience in
+                healthcare/infection control solutions and commercial property
+                management, putting us in a unique position to help your
+                business trade more safely.
               </p>
               <ul className="actions">
                 <li>
