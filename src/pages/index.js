@@ -77,6 +77,7 @@ class HomeIndex extends React.Component {
                 organisations better protect their workplace, their people,
                 their customers.
                 <br />
+                <br />
                 Ensuring healthy indoor air quality in the workplace to help
                 minimise sick leave and maximise productivity is a challenge.
                 Contributing factors include: lack of circulating fresh air;
@@ -85,9 +86,11 @@ class HomeIndex extends React.Component {
                 bacteria, pollen, dust, and other harmful contaminants to the
                 mix.
                 <br />
+                <br />
                 Our proven and cost-effective products can help your
                 organisation combat all of this via the latest in smart air
                 monitoring, filtering, purification and sanitisation.
+                <br />
                 <br />
                 Our management team has a wealth of experience in
                 healthcare/infection control solutions and commercial property
