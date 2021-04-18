@@ -29,14 +29,8 @@ const Pricing = props => (
             </tr>
             <tr>
               <td>
-                Office Sanitising Smart Mister (with 2 × 5L Disinfect Readymix
+                Office / Room Sanitising Mister (with 2 × 5L Disinfect Readymix
                 Refill)
-              </td>
-              <td>£199.00</td>
-            </tr>
-            <tr>
-              <td>
-                Office Sanitising Mister (with 2 × 5L Disinfect Readymix Refill)
               </td>
               <td>£115.00</td>
             </tr>
@@ -45,7 +39,7 @@ const Pricing = props => (
                 Mister Bonus Starter Pack A - add 1 x 10L Disinfect Readymix
                 Refill with Tap
               </td>
-              <td>£29.95</td>
+              <td>£22.95</td>
             </tr>
             <tr>
               <td>
