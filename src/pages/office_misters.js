@@ -21,8 +21,8 @@ const OfficeMisters = props => (
             <br />
           </header>
           <h3>Smart Sanitising Mister</h3>
-          <h4>RRP £199 (includes 2 x 5L refills)</h4>
-          <h5>Includes VAT @ 20%</h5>
+          <h4>RRP £163.83 (includes 2 x 5L refills)</h4>
+          <h5>Excludes VAT @ 20%</h5>
           <img src={smartMister} alt="smart office mister machine" />
           <img src={refillX25L} alt="2 x 5L refills" />
           <p>

@@ -70,9 +70,9 @@ const HandSanitiser = props => (
           <div className="break"></div>
           <h3>DEW Hand Sanitiser</h3>
           <div className="break"></div>
-          <h4>RRP from £3.49</h4>
+          <h4>RRP from £2.91</h4>
           <div className="break"></div>
-          <h5>Includes VAT @ 20%</h5>
+          <h5>Excludes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
             Available in 65ml pocket sized, 500ml refillable spray bottles, and
@@ -87,9 +87,9 @@ const HandSanitiser = props => (
           <div className="break"></div>
           <h3>DEW Air</h3>
           <div className="break"></div>
-          <h4>RRP £6.99</h4>
+          <h4>RRP £5.83</h4>
           <div className="break"></div>
-          <h5>Includes VAT @ 20%</h5>
+          <h5>Excludes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
             Supplied in a specially designed refillable 185ml trigger spray
@@ -105,9 +105,9 @@ const HandSanitiser = props => (
           <div className="break"></div>
           <h3>DEW Disinfect Surface Spray</h3>
           <div className="break"></div>
-          <h4>RRP £4.99</h4>
+          <h4>RRP £4.16</h4>
           <div className="break"></div>
-          <h5>Includes VAT @ 20%</h5>
+          <h5>Excludes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
             Supplied in a refillable 500ml spray bottle, it is a no-rinse,
@@ -122,9 +122,9 @@ const HandSanitiser = props => (
           <div className="break"></div>
           <h3>DEW Disinfect Readymix Refills</h3>
           <div className="break"></div>
-          <h4>RRP from £14</h4>
+          <h4>RRP from £11.67</h4>
           <div className="break"></div>
-          <h5>Includes VAT @ 20%</h5>
+          <h5>Excludes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
             Available in 5L, 10L & 20 L bottles, to conveniently refill Dew Hand

@@ -42,9 +42,9 @@ const CleanProtection = props => (
           <div className="break"></div>
           <h3>DEW Superclean</h3>
           <div className="break"></div>
-          <h4>RRP £4.99</h4>
+          <h4>RRP £4.16</h4>
           <div className="break"></div>
-          <h5>Includes VAT @ 20%</h5>
+          <h5>Excludes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
             Available in a 500ml refillable spray dispenser, it provides
@@ -58,9 +58,9 @@ const CleanProtection = props => (
           <div className="break"></div>
           <h3>DEW Foam Hand & Body Wash</h3>
           <div className="break"></div>
-          <h4>RRP £4.49</h4>
+          <h4>RRP £3.74</h4>
           <div className="break"></div>
-          <h5>Includes VAT @ 20%</h5>
+          <h5>Excludes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
             Available in a 200ml refillable pump dispenser, it is a very
@@ -75,9 +75,9 @@ const CleanProtection = props => (
           <div className="break"></div>
           <h3>DEW Superclean Readymix Refills</h3>
           <div className="break"></div>
-          <h4>RRP from £14</h4>
+          <h4>RRP from £11.67</h4>
           <div className="break"></div>
-          <h5>Includes VAT @ 20%</h5>
+          <h5>Excludes VAT @ 20%</h5>
           <div className="break"></div>
           <p>
             Available in 5L, 10L & 20 L bottles, to conveniently refill your DEW

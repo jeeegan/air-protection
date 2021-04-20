@@ -22,104 +22,105 @@ const Pricing = props => (
           <table>
             <tr>
               <th>Description</th>
-              <th>Unit Price (inc VAT)*</th>
+              <th>Unit Price (ex VAT)*</th>
+            </tr>
+            <tr>
+              <th>Air Purification & Disinfection</th>
+            </tr>
+            <tr>
+              <td>Aura Air - Smart Air Purification & Monitoring</td>
+              <td>£550.00</td>
+            </tr>
+            <tr>
+              <td>Ray Filter Copper/Carbon HEPA Replacement</td>
+              <td>£79.99</td>
             </tr>
             <tr>
               <th>Office Misters</th>
             </tr>
             <tr>
-              <td>
-                Office / Room Sanitising Mister (with 2 × 5L Disinfect Readymix
-                Refill)
-              </td>
-              <td>£115.00</td>
+              <td>Smart Sanitising Mister (with 2 × 5L Mist)</td>
+              <td>£163.83</td>
             </tr>
             <tr>
               <td>
                 Mister Bonus Starter Pack A - add 1 x 10L Disinfect Readymix
                 Refill with Tap
               </td>
-              <td>£22.95</td>
+              <td>£19.13</td>
             </tr>
             <tr>
               <td>
                 Mister Bonus Starter Pack B - add 1 x 20L Disinfect Readymix
                 Refill with Tap
               </td>
-              <td>£39.27</td>
+              <td>£32.73</td>
             </tr>
             <tr>
               <th>Foggers</th>
             </tr>
             <tr>
-              <td>Professional Fogging Machine</td>
-              <td>£599.00</td>
-            </tr>
-            <tr>
-              <td>
-                Fogger Bonus Starter Pack A - add 4 x 5L Disinfect Readymix
-                Refills
-              </td>
-              <td>£47.60</td>
+              <td>Professional Fogging Machine (with 4 x 5L Mist)</td>
+              <td>£499.17</td>
             </tr>
             <tr>
               <td>
                 Fogger Bonus Starter Pack B - add 1 x 10L Disinfect Readymix
                 Refill with Tap
               </td>
-              <td>£22.95</td>
+              <td>£19.13</td>
             </tr>
             <tr>
               <td>
                 Fogger Bonus Starter Pack C - add 1 x 20L Disinfect Readymix
                 Refill with Tap
               </td>
-              <td>£39.27</td>
+              <td>£32.73</td>
             </tr>
             <tr>
               <th>Hand, Air & Surface Sanitiser</th>
             </tr>
             <tr>
               <td>Dew Air 185ml - Fine Mist Room Spray</td>
-              <td>£6.99</td>
+              <td>£5.83</td>
             </tr>
             <tr>
               <td>Dew Disinfect 500ml - Surface Spray</td>
-              <td>£4.99</td>
+              <td>£4.16</td>
             </tr>
             <tr>
               <td>Dew Hand Sanitiser 65ml - Pocket Sized</td>
-              <td>£3.49</td>
+              <td>£2.91</td>
             </tr>
             <tr>
               <td>Dew Hand Sanitiser 500ml</td>
-              <td>£4.99</td>
+              <td>£4.16</td>
             </tr>
             <tr>
               <td>Dew Disinfect Refill 5L (Disinfect, Air & Hand Sanitiser)</td>
-              <td>£14.00</td>
+              <td>£11.67</td>
             </tr>
             <tr>
               <td>
                 Dew Disinfect Refill 10L with Tap (Disinfect, Air & Hand
                 Sanitiser)
               </td>
-              <td>£27.00</td>
+              <td>£22.50</td>
             </tr>
             <tr>
               <td>
                 Dew Disinfect Refill 20L with Tap (Disinfect, Air & Hand
                 Sanitiser)
               </td>
-              <td>£46.20</td>
+              <td>£38.50</td>
             </tr>
             <tr>
               <td>Dew Hand Sanitiser Dispenser – Wall Mounted</td>
-              <td>£19.50</td>
+              <td>£16.25</td>
             </tr>
             <tr>
               <td>Dew Hand Sanitiser 1L - Dispenser Refill</td>
-              <td>£12.50</td>
+              <td>£10.42</td>
             </tr>
             <tr>
               <th>Clean Protection</th>
@@ -129,28 +130,28 @@ const Pricing = props => (
                 Dew Superclean 500ml - Powerful Multi-Purpose Cleaner/Degreaser
                 Spray
               </td>
-              <td>£4.99</td>
+              <td>£4.16</td>
             </tr>
             <tr>
               <td>Dew Foam 200ml - Hand & Body Wash</td>
-              <td>£4.49</td>
+              <td>£3.74</td>
             </tr>
             <tr>
               <td>Dew Superclean Refill 5L (Superclean & Foam)</td>
-              <td>£14.00</td>
+              <td>£11.67</td>
             </tr>
             <tr>
               <td>Dew Superclean Refill 10L with Tap (Superclean & Foam)</td>
-              <td>£27.00</td>
+              <td>£22.50</td>
             </tr>
             <tr>
               <td>Dew Superclean Refill 20L with Tap (Superclean & Foam)</td>
-              <td>£46.20</td>
+              <td>£38.50</td>
             </tr>
           </table>
           <p>
             * Trade, Contract, Volume Pricing available on request. All prices
-            include VAT @ 20%
+            exclude VAT @ 20%
           </p>
         </div>
       </section>
