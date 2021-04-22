@@ -5,6 +5,8 @@ import auraExplodedView from '../assets/images/auraExplodedView.gif'
 import scientificResearch from '../assets/images/scientificResults.png'
 import auraAirUnit from '../assets/images/auraAirUnit.png'
 import auraAirApp from '../assets/images/auraAirApp.png'
+import sectorImgKitchen from '../assets/images/sectorImgKitchen.jpg'
+import sectorImgOffice from '../assets/images/sectorImgOffice.jpg'
 
 const AirPurification = props => (
   <Layout>
@@ -33,7 +35,7 @@ const AirPurification = props => (
           <img
             src={auraAirUnit}
             alt="Aura Air Unit"
-            style={{ maxWidth: '60%' }}
+            style={{ maxWidth: '50%' }}
           />
           <h2>Scientific Research</h2>
           <p>
@@ -64,6 +66,12 @@ const AirPurification = props => (
               You can download the white paper here
             </a>
           </p>
+          <img
+            src={sectorImgKitchen}
+            alt="Aura Air in home kitchen"
+            style={{ maxWidth: '80%', paddingBottom: '1em' }}
+          />
+          <br />
           <h2>Data-Driven Air Quality Platform</h2>
           <p>
             Aura Air’s Filter system accurately measures and displays PM2.5,
@@ -120,6 +128,11 @@ const AirPurification = props => (
             viruses, and parasites by destroying the proteins on the cell
             membrane.
           </p>
+          <img
+            src={sectorImgOffice}
+            alt="Aura Air in office setting"
+            style={{ maxWidth: '80%', paddingBottom: '1em' }}
+          />
         </div>
       </section>
     </div>

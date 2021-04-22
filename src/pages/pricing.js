@@ -40,7 +40,7 @@ const Pricing = props => (
             </tr>
             <tr>
               <td>Smart Sanitising Mister (with 2 × 5L Mist)</td>
-              <td>£163.83</td>
+              <td>£165.83</td>
             </tr>
             <tr>
               <td>

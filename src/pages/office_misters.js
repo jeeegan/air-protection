@@ -21,18 +21,21 @@ const OfficeMisters = props => (
             <br />
           </header>
           <h3>Smart Sanitising Mister</h3>
-          <h4>RRP £163.83 (includes 2 x 5L refills)</h4>
+          <h4>RRP £165.83 (includes 2 x 5L refills)</h4>
           <h5>Excludes VAT @ 20%</h5>
           <img src={smartMister} alt="smart office mister machine" />
           <img src={refillX25L} alt="2 x 5L refills" />
           <p>
-            This high specification Smart Sanitising Mister silently disperses a
-            very fine, cold, dry mist of a proprietary solution of hypochlorous
-            acid water (HOCl) formulated specifically to safely sanitise the air
-            and surfaces within your office, reception, meeting room, treatment
-            room, shop floor, etc. It provides visual, real-time, reassurance
-            for both your colleagues and your customers – helping to keep the
-            working environment healthy and safe.
+            This high specification Smart Sanitising Office Mister silently
+            disperses a very fine, cold, dry mist of a proprietary solution of
+            hypochlorous acid water (HOCl) formulated specifically to safely and
+            effectively sanitise the air and surfaces within your office,
+            reception, meeting room, treatment room, shop floor, etc.
+          </p>
+          <p>
+            It provides visual, real-time, reassurance for both your colleagues
+            and your customers – helping to keep the working environment healthy
+            and safe.
           </p>
           <p>
             Our Smart Mister has a built-in wi-fi connection, allowing you to
@@ -52,29 +55,25 @@ const OfficeMisters = props => (
             contaminants.
           </p>
           <p>
-            Only use with our DEW Mist/Disinfect HOCL to ensure: 99.995%
-            efficacy against airborne and surface bacteria, viruses and fungi;
-            rapid disinfection rate; hypoallergenic; neutralise odours;
-            non-corrosive; non-staining; non-toxic; environmentally friendly.
-          </p>
-          <p>
-            DEW Mist/Disinfect Refills available in 5L, 10L and 20L options –
-            Select Starter packs to get 15% off Refills, or contact us about
-            contract pricing - see <Link to="/pricing">price list</Link> for
-            details
+            Only use with our Mist HOCL to ensure: 99.995% efficacy against
+            airborne and surface bacteria, viruses and fungi; rapid disinfection
+            rate; hypoallergenic; neutralise odours; non-corrosive; non-
+            staining; non-toxic; environmentally friendly.
           </p>
           <h4>Features:</h4>
           <ul>
-            <li>Wall-mounted or free-standing</li>
-            <li>3 levels of mist control</li>
-            <li>Manual Timer function - 10 mins on, 20 mins off</li>
-            <li>Low solution notification</li>
+            <li>Wall-mounted or free-standing (comes with fixings)</li>
+            <li>3 levels of mist control (max mist output 230 ml/h)</li>
+            <li>Manual Timer Function – 10 mins on, 20 mins off</li>
+            <li>Low/empty solution notification & auto-power off</li>
             <li>Relative humidity display</li>
             <li>2L Capacity tank</li>
             <li>3M Cable length</li>
-            <li>WiFi link function (controlled via app)</li>
+            <li>WiFi & App function</li>
             <li>Automatic schedule (controlled via app)</li>
-            <li>Suitable for use in all environments</li>
+            <li>Suitable for use in rooms up to 600 ft2 (55 m2)</li>
+            <li>Dimensions: 242 mm (h) x 242 mm (l) x 110 mm (d)</li>
+            <li>Weight: 1.1 kg (net)</li>
           </ul>
           <div className="break"></div>
           <Link to="/pricing" className="button next scrolly">
