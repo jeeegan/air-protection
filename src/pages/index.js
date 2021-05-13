@@ -72,30 +72,27 @@ class HomeIndex extends React.Component {
                 <h2>About Us</h2>
               </header>
               <p>
-                Air Protection, a trading name of C W Cameron Ltd, a
-                long-established family business, is committed to helping
-                organisations better protect their workplace, their people,
-                their customers.
+                At Air Protection we recognise that a key priority for any
+                organisation is looking after its biggest asset – its people
+                (and its customers). It is now widely documented that
+                maintaining healthy indoor air quality (IAQ) is paramount to
+                ensuring our health and wellbeing. This in turn is proven to
+                help minimise sick leave and maximise productivity.
                 <br />
                 <br />
-                Ensuring healthy indoor air quality in the workplace to help
-                minimise sick leave and maximise productivity is a challenge.
-                Contributing factors include: lack of circulating fresh air;
-                inadequate ventilation; poor outdoor air quality; central
-                heating; and, air conditioning. Then, we can add viruses,
-                bacteria, pollen, dust, and other harmful contaminants to the
-                mix.
+                The challenge is of course amplified by a lack of circulating
+                fresh air and inadequate ventilation; poor outdoor air quality;
+                and unavoidable close contact working conditions. Then, we can
+                add viruses, bacteria, pollen, dust, and other harmful airborne
+                pollutants into the mix…
                 <br />
                 <br />
-                Our proven and cost-effective products can help your
-                organisation combat all of this via the latest in smart air
-                monitoring, filtering, purification and sanitisation.
-                <br />
-                <br />
-                Our management team has a wealth of experience in
-                healthcare/infection control solutions and commercial property
-                management, putting us in a unique position to help your
-                business trade more safely.
+                Air Protection’s management team has a wealth of experience in
+                healthcare, infection control, and commercial property
+                management solutions. This puts us in a unique position to
+                advise on the most appropriate and effective air monitoring,
+                purification and sanitisation products to help your business
+                trade more safely.
               </p>
               <ul className="actions">
                 <li>
